@@ -12,7 +12,6 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" media="all" href="./css/main.min.css">
-  <link rel="stylesheet" href="css/simple-adaptive-slider.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -50,8 +49,19 @@ justify-content: center;">
   </header>
   </nav>
 
+  <section style="height: 760px;
+  background-image: url('img/hero.jpg');
+  background-size: cover; position: relative;"> </section>
+
+  <section style="background-color: #1f1f1f;
+  width: 100%;
+  height: 50px;">
+    <div class="arrow bounce"></div>
+  </section>
+
+
   <section id="shop" class="wrapper__items"
-  style="padding: 130px 0 0; display: block;">
+  style="display: block;">
   <div class="container" style="position: relative;
     margin: 0 auto;
     padding: 0 15px;
@@ -130,42 +140,6 @@ justify-content: center;">
       </a>
     </li>
 
-
-    <li class="wrapper__items">
-      <a href="СD/1.html" >
-      <div class="wrapper__items-img content">
-      <img src="img/CD/1.webp" 
-      alt="Items" class="wrapper__img">
-      <div class="h1__hidden hide">
-        <noindex>
-      <a href="СD/1.html" class="items__link-prod">View</a>
-      </div>
-    </div>
-    <a href="СD/1.html" class="wrapper__buttons-sec">
-    <p class="wrapper__items-desc"> Red Berry Foliage Stems (x5) <br> € 15.99</p>
-    </a>
-  </noindex>
-      </a>
-    </li>
-
-
-    <li class="wrapper__items">
-      <a href="СD/2.html" >
-      <div class="wrapper__items-img content">
-      <img src="img/CD/2.webp"  
-      alt="Items" class="wrapper__img">
-      <div class="h1__hidden hide">
-        <noindex>
-      <a href="СD/2.html" class="items__link-prod">View</a>
-      </div>
-    </div>
-    <a href="СD/2.html" class="wrapper__buttons-sec">
-    <p class="wrapper__items-desc"> Foliage & Red Berries Wreath <br> € 35.99</p>
-    </a>
-  </noindex>
-      </a>
-    </li>
-
     </ul>
   </div>
   </section>
@@ -205,10 +179,8 @@ justify-content: center;">
       document.title = activeAlert ? title : msg;
 
       activeAlert = !activeAlert;
-    }, 1000);
+    }, 1500);
   </script>
-
-
 
   <div class="modal__backdrop1 is-hidden1" data-modal1>
     <div class="modal1" data-form-modal1>
@@ -344,7 +316,6 @@ justify-content: center;">
     </div>
 </div>
 
-<!-- <script src="js/main.js"></script> -->
 <script>
   (() => {
     const refs = {
