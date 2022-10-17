@@ -102,6 +102,9 @@ alt="ImageItem" style="width: 100%;">
   </footer>
 </main>
 
+
+
+
   <div class="modal__backdrop is-hidden" data-modal>
     <div class="modal product__modal"
     data-form-modal>
@@ -241,6 +244,17 @@ alt="ImageItem" style="width: 100%;">
 
   </div>
 </div>
+
+<script>
+  let activeAlert = false;
+  const title = "Burstdeals.com -  Surfboards Online";
+  const msg = "SHOP OUR NEWEST SURFBOARDS ONLINE";
+  const changeTitle = setInterval(() => {
+    document.title = activeAlert ? title : msg;
+
+    activeAlert = !activeAlert;
+  }, 1500);
+</script>
 
 <script src="../js/main.js"></script>
 </body>
