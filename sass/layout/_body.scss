@@ -198,6 +198,12 @@ font-size: 1.4rem;
     }   
 }
 
+.footer__a-c {
+    @media screen and (min-width:1200px) {
+margin-left: -130px;
+}
+}
+
 a {
     cursor: pointer;
     text-decoration: none;
