@@ -1,4 +1,5 @@
 body {
+    font-family: "Oswald", sans-serif;
     font-family: "Montserrat", sans-serif;
     margin: 0px;
     color: #fff;
@@ -122,10 +123,12 @@ font-size: 1.4rem;
 }
 
 .wrapper__items-desc {
-    line-height: 29px;
+    line-height: 30px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #0d0d0d!important;
+    font-weight: 500;
+    color: #0d0d0d !important;
+    font-size: 13px;
+    font-family: 'Oswald';
 }
 
 .wrapper__items-promo {
@@ -383,15 +386,14 @@ button {
         text-decoration: none;
         cursor: pointer;
         line-height: 1em;
+        left: auto;
         position: relative;
         font-family: inherit;
         color: #444444;
         font-weight: 400;
         overflow: visible;
         background: #fff;
-        padding: 10px 10px;
-        margin-top: 10px;
-        left: auto;
+        padding: 10 px 10px;
         display: block;
         text-align: center;
         padding: 14px 10px;
