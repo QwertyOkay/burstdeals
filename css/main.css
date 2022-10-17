@@ -2238,10 +2238,6 @@ button {
   border: none;
 }
 
-.items__button:hover {
-  background-color: #43588d;
-}
-
 .items__info {
   width: 100%;
 }
