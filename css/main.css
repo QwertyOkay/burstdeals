@@ -1619,7 +1619,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .button__section {
-    font-size: large;
+    font-size: 1.3em;
   }
 }
 
